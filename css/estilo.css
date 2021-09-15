@@ -1,0 +1,43 @@
+*{   margin: 0px;
+   padding: 0px; }
+
+body{ 
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: thistle;
+   color: darkslategray;}
+
+/* encabezado y parrafo*/
+   .top{
+       margin-top: 40px;
+       text-align: center;
+    margin-bottom: 30px;  }
+
+p { text-align: center;
+    color: #566573;
+    font-size: 16px;
+    margin: 5px auto;
+}   
+   
+/* caja flexible con imagenes*/
+.cajapadre {
+    display: flex;
+    width: 720px;
+    height: 450px;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    align-content: space-around;
+     margin: auto; }   
+
+/* cajas hijas   */
+.cajita>div {
+    width: 210px;
+    height: 170px;
+    font-size: 12px;
+    text-align: left;
+    color: #566573;   
+    flex: 1; }
+    
+.cajita{
+    background-color: #F2F3F4;
+    padding: 5px 5px 10px 5px;
+}
